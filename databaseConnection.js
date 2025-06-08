@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise');
 const db = {
 	host: "sql.freedb.tech",
 	user: "freedb_mainUser",
-	password: "avweMzA8tQ$zxwB",
+	password: "w!EkbAgRCVzh7@?",
 	database: "freedb_todoist",
 	multipleStatements: false,
 	namedPlaceholders: true,
