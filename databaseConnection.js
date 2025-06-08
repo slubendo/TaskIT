@@ -10,6 +10,5 @@ const db = {
 };
 
 var database = mysql.createPool(db);
-
 module.exports = database;
 		
