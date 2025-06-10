@@ -159,9 +159,8 @@ async function getTasksUpcoming() {
   INNER JOIN type
   ON task.type_id = type.type_id
   Where complete_id = 2
-  HAVING due < CURDATE() + 7
+  HAVING due < CURDATE() + INTERVAL 7 DAY
   Order by due, priority_id DESC, task_id, task, type_id, made_by, complete_id
-
 	`;
 
   console.log(sqlQuery);
